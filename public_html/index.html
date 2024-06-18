@@ -15,16 +15,16 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
     </head>
-    <body>
-        <header>
+    <body style="background-color: #67b168">
+        <header> 
+            <!--Menú superio de opciones-->
             <nav class="navbar navbar-default" style="background: #255625">
                 <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <!-- Logo -->
                     <div class="navbar-header">
                         <img src="img/Logo.jpg" class="navbar-brand">
                     </div>
-                    
-                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <!-- nav links, forms, y otros contenidos para el menú superior -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.html">¿Quienes Somos?</a></li>
@@ -33,6 +33,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                             <li><a href="Encuentranos.html">¿Donde nos encontramos?</a></li>
                             <li><a href="Historia.html">Historia</a></li>
                         </ul>
+                        <!-- Formulario de buscar -->
                         <form class="navbar-form navbar-right">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Buscar">
@@ -43,7 +44,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 </div><!-- /.container-fluid -->
             </nav>
         </header>
-        <section>
+        <section style="background-color: #5cb85c">
+            <!-- Carusel de imagenes (imagenes de presentación) -->
             <div id="miCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicadores -->
                 <ol class="carousel-indicators">
@@ -52,7 +54,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <li data-target="#miCarousel" data-slide-to="2"></li>
                 </ol>
                 
-                <!-- Contenedor de las diapositivas -->
+                <!-- Contenedor de las imagenes -->
                 <div class="carousel-inner">
                     <div class="item active">
                         <img style="margin-left: auto; margin-right: auto" src="img/Nav1.jpg" alt="Imagen1">
@@ -76,10 +78,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                       </a>
             </div>
         </section>
-
-        <section id="banner">
-            <div class="jumbotron">
-                <div class="container">                    
+        <section>
+            <!-- Contenido de la información de ¿Quienes somos? -->
+            <div style="background-color: #67b168" class="jumbotron">
+                <div style="background-color: #67b168" class="container">                    
                     <h1>¿Quienes somos?</h1>
                     <p>Somos un instituto técnico para el trabajo y el desarrollo humano, el cuál tiene 
                         como labor social ayudar a los jóvenes a qué obtengan un proyecto de vida a 
@@ -87,7 +89,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <p><a class="btn btn-primary btn-lg" href="#" role="button">Leer más</a></p>
                     <p>“SER BUENO NO ES SUFCICIENTE CUANDO SE PUEDE SER EXCELENTE.”</p>
                     <center><img aling="middle" src="img/qs.jpg"></center>
-                    <div class="jumbotron">
+                    <div style="background-color: #67b168" class="jumbotron">
                         <div class="thumbnail col-sm-8 col-md-6">                            
                             <div class="caption">
                                 <h1>Misión</h1>
@@ -113,28 +115,33 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </div>
                 </div>   
             </div>
-        </section>
-        <aside>
-            
-        </aside>
-        
-        <main>
-            <!-- Sección de cursos -->
-            <section id="cursos">
-                <article>
-                    <!-- Detalles del curso -->
-                </article>
-                <article>
-                    <!-- Detalles del curso -->
-                </article>
-                <!-- Repite para los demás cursos -->
-            </section>
-        </main>
-        
-        <footer>
-            <div class="panel panel-default">
-                <center><div class="panel-footer">Todos los derechos reservados</div></center>
-            </div>
-        </footer>
+        </section>        
     </body>
+    <!-- Pie de página -->
+    <footer>
+        <div class="panel panel-default">
+            <center>
+                <div class="panel-footer" style="background-color: #000">
+                    <div class="media-left">
+                        <div class="media-left">
+                            <img src="img/Mail.jpg" class="media-object">
+                        </div>
+                        <div class="media-body">
+                            <p1 class="media-heading">Intecsis.edu@Gmail.com </p1>
+                        </div>
+                    </div>
+                    <div class="media-right">
+                        <div class="media-right ">
+                            <img src="img/Dir.jpg" class="media-object">
+                        </div>
+                        <div class="media-body">
+                            <p1 class="media-heading">calle 19  No 10- 51 en el barrio Ricaurte – Granada meta</p1>
+                        </div>
+                    </div>
+                    <br>
+                    <p1>Todos los derechos reservados</p1>
+                </div>
+            </center>
+        </div>
+    </footer>
 </html>

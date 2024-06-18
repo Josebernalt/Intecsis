@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>INTECSIS-Contacto</title>
+        <title>INTECSIS- Historia</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,13 +11,16 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </head>
-    <body>
+    <body style="background-color: #5cb85c">
         <header>
+            <!--Menú superio de opciones-->
             <nav class="navbar navbar-default" style="background: #255625">
                 <div class="container-fluid">
+                    <!-- Logo -->
                     <div class="navbar-header">
                         <img src="img/Logo.jpg" class="navbar-brand">
                     </div>
+                    <!-- nav links, forms, y otros contenidos para el menú superior -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li><a href="index.html">¿Quienes Somos?</a></li>
@@ -25,7 +28,8 @@
                             <li><a href="Contacto.html">Contacto<span class="sr-only">(current)</span></a></li>
                             <li><a href="Encuentranos.html">¿Donde nos encontramos?</a></li>
                             <li class="active"><a href="Historia.html">Historia</a></li>
-                        </ul>
+                        </ul>     
+                        <!-- Formulario de buscar -->
                         <form class="navbar-form navbar-right">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Buscar">
@@ -35,15 +39,19 @@
                     </div>
                 </div>
             </nav>
-        </header>      
-        <section id="historia">
-            <div class="jumbotron">
+        </header>  
+        <!-- Contenido principal de la pagina -->
+        <section style="background-color: #5cb85c" >
+            <div class="jumbotron" style="background-color: #5cb85c">
                 <div class="container">
-                    <h2>Historia INTECSIS</h2>
+                    <h1>Historia INTECSIS</h1>
+                    <!-- Organización de la imagen y el texto de la historia -->
                     <div class="media">
+                        <!-- Imagen -->
                         <div class="media-left media-middle">
                             <img src="img/intecsis1.jpg" alt="Imagen 1 de INTECSIS">
                         </div>
+                        <!-- Texto-->
                         <div class="media-body">
                             <p>Los inicios del instituto INTECSIS fueron en el 2009 con su primera sede en 
                                 san José del Guaviare. En el 2010 se abrieron sedes en el retorno y calamar Guaviare 
@@ -57,21 +65,27 @@
                     <br>
                     <br>
                     <br>
+                    <!-- Organización de la imagen y el texto del simbolo -->
                     <div>
+                        <!-- Text -->
                         <div class="media-body">
                             <br>
                             <p>NUESTRO SIMBOLO ANTIGUO:</p>
                             <p>Este fue el logo o símbolo que utilizamos cuando estaba iniciando nuestro instituto, el cual hace poco cambiamos.</p>
                         </div>
+                        <!-- Imagen -->
                         <div class="media-left media-middle">
                             <img src="img/intecsis2.jpg" alt="Imagen 2 de INTECSIS">
                         </div>
                     </div>
+                    <!-- Organización de la imagen de graduados y su respectivo botón para seleccionar el año -->
                     <div class="media">
                         <p>GRADUADOS</p>
+                        <!-- Imagen -->
                         <div class="media-left media-middle">
                             <img src="img/Graduados.jpg" alt="Imagen 3 de INTECSIS">
                         </div>
+                        <!-- Botón para elegir el año -->
                         <div class="media-body">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -99,13 +113,34 @@
                     </div>                    
                 </div>  
             </div>
-        </section>
-        
-        <footer>
-            <div class="panel panel-default">
-                <center><div class="panel-footer">Todos los derechos reservados</div></center>
-            </div>
-        </footer>
+        </section>        
     </body>
+    <!-- Pie de página -->
+    <footer>
+        <div class="panel panel-default">
+            <center>
+                <div class="panel-footer" style="background-color: #000">
+                    <div class="media-left">
+                        <div class="media-left">
+                            <img src="img/Mail.jpg" class="media-object">
+                        </div>
+                        <div class="media-body">
+                            <p1 class="media-heading">Intecsis.edu@Gmail.com </p1>
+                        </div>
+                    </div>
+                    <div class="media-right">
+                        <div class="media-right ">
+                            <img src="img/Dir.jpg" class="media-object">
+                        </div>
+                        <div class="media-body">
+                            <p1 class="media-heading">calle 19  No 10- 51 en el barrio Ricaurte – Granada meta</p1>
+                        </div>
+                    </div>
+                    <br>
+                    <p1>Todos los derechos reservados</p1>
+                </div>
+            </center>
+        </div>
+    </footer>
 </html>
 

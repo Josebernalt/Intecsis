@@ -1173,7 +1173,12 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
-h1,
+h1{
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
 h2,
 h3,
 h4,
@@ -1266,7 +1271,9 @@ h6 .small,
 }
 h1,
 .h1 {
+  font-family: ALGERIAN;
   font-size: 36px;
+  color: #000;
 }
 h2,
 .h2 {
@@ -1274,11 +1281,15 @@ h2,
 }
 h3,
 .h3 {
+  font-family: ALGERIAN;
   font-size: 24px;
+  color: #000;
 }
 h4,
 .h4 {
+    font-family: ALGERIAN;
   font-size: 18px;
+  color: #000;
 }
 h5,
 .h5 {
@@ -1289,7 +1300,14 @@ h6,
   font-size: 12px;
 }
 p {
+  font-family: AngsanalUPC;
   margin: 0 0 10px;
+  color: #000;
+}
+p1{
+  font-family: AngsanalUPC;
+  margin: 0 0 10px;
+  color: #ddd;
 }
 .lead {
   margin-bottom: 20px;
